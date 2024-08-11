@@ -9,7 +9,7 @@ export default function Topbar() {
   return (
     <div className='flex flex-row justify-between px-7 bg-white'>
        <Link href="/instagram" className="pb-[-2] ">
-       <Image src={logo} className="  pr-8 w-[190px]  " />
+       <Image src={logo} alt='logo' className="  pr-8 w-[190px]  " />
         
       </Link>
       <div className='flex flex-row gap-4 justify-center items-center'>

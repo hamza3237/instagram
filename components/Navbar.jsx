@@ -22,7 +22,7 @@ export default function Navbar() {
     <div className=" border px-8   h-screen  flex flex-col justify-around">
       <Link href="/instagram" className="pb-[-2] ">
         <Instagram className="lg:hidden" /> 
-        <Image src={logo} className="hidden lg:flex pr-8 w-[130px] " />
+        <Image src={logo} alt="logo" className="hidden lg:flex pr-8 w-[130px] " />
         
       </Link>
 
@@ -43,7 +43,7 @@ export default function Navbar() {
         </Link>
 
         <Link href="/instagram/reels" className="flex flex-row gap-4">
-          <Image height={23} width={23} className="ml-[3px]" src={reels} />
+          <Image height={23} width={23} className="ml-[3px]" alt="reels" src={reels} />
           <p className="hidden lg:flex"> Reels</p>
         </Link>
 
@@ -67,6 +67,7 @@ export default function Navbar() {
             height={25}
             width={25}
             src={profile}
+            alt="profile"
           />
           <p className="hidden lg:flex"> Profile</p>
         </Link>

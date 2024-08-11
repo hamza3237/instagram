@@ -30,12 +30,13 @@ export default function MobileNavbar() {
         </Link>
 
         <Link href="/instagram/reels" className="flex flex-row gap-4">
-          <Image height={34} width={34} className="ml-[3px]" src={reels} />
+          <Image height={34} width={34} className="ml-[3px]" alt="reels" src={reels} />
         </Link>
 
         <Link href="/instagram/profile" className="flex flex-row gap-4">
           <Image
             className="border border-black rounded-full "
+            alt="profile"
             height={38}
             width={38}
             src={profile}
